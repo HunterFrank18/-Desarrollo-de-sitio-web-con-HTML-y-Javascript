@@ -1,0 +1,78 @@
+body p{
+    color: green;
+    } 
+
+#contenedor{
+    width: 1024px;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure !important;
+    font-size: large;
+    width: 800px;
+    padding: 0%;
+}
+
+body{
+    color: red;
+    } 
+
+#imagen{
+   position: absolute;
+   left: 100;
+   top: 100;
+   width: 500px;
+   height: 500px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: cyan;
+    width: 224px;
+
+}
+
+
+.menu{
+    list-style: none; 
+     padding: 0%; 
+     background-color: brown;
+     width: 100%; 
+     max-width: 1000px; 
+     margin: right;, 
+}
+
+.menu li a{
+    text-decoration: solid;
+    color: yellow;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 1000px){
+    #header{
+        width: 100%;
+    }
+    #h1{
+        width: 100%;
+    }
+    #menu{
+        width: 100%;
+    }
+    #menu li a{
+        width: 100%;
+    }
+    #menu li a:hover{
+        width: 100%
+    }
+    img{
+        width: 100%;
+        position: fixed;
+    }
+}

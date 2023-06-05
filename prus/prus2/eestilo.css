@@ -1,0 +1,48 @@
+#contenedor{
+    width: 980px;
+    margin: 0 auto;
+}
+
+#columna-izq{
+    width: 700px;
+    float: left;
+    background: greenyellow;
+}
+
+#columna-dere{
+    width: 260 px;
+    float: left;
+    background: coral;
+}
+
+@media screen and  (max-width: 959 px){    
+    #contenedor{
+        width: 100%;
+    }
+
+    #columna-izq{
+        width: 70%;
+    }
+
+    #columna-dere{
+        width: 30%;
+    }
+
+    img{width: 100%;}
+}
+
+
+@media screen and (max-width: 740px){
+    #contenedor{
+        width: 100%;
+    }
+
+    #columna-izq{
+        width: 100%;
+    }
+
+    #columna-dere{
+        width: 100%;
+    }
+}
+
