@@ -1,0 +1,26 @@
+#cuerpo{
+    width: 200 px;
+    margin: 20px;
+    font-family: Verdana;
+    background-color:darkcyan;
+}
+
+#email{
+    font-family: tahoma;
+    background-color:brown;
+
+}
+
+p{
+    font-family: tahoma;
+    color:aquamarine
+}
+
+.input text{
+width:150px;
+margin:10px 50px;
+padding:20px;
+font-size:italic;
+background-color:coral;
+color:#000;
+}
