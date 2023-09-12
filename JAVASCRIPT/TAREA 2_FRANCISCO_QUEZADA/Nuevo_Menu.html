@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu latera</title>
+    <link rel="stylesheet" href="Nuevo_menu.css">
+    
+</head>
+<body>
+    <header class=""header>
+        <div class="container">
+        <div class="btn-menu">
+            <label for="btn-menu">☰</label>
+        </div>
+        <div class="logo">
+            <h1>Bienvenidos</h1>
+        </div>
+
+        
+
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            
+            <a href="#">Acerca de mi</a>
+            <a href="#">Contactanos</a>
+            <a href="#">Blog</a>
+        </nav>
+        <div>
+            <header>
+                <div class="capa"></div>
+                <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+        <div class="cont-menu">
+
+
+              <nav class="nav1">
+                <ul class="list">
+                    <li class="list__item">
+                    <div class="list__button">
+                    <img src="arrow.svg" class="list_img">
+                     <a href="#" class="nav__link">Servicios</a>
+                    <img src="flecha.svg" alt="" class="list__arrow">
+                    
+                            
+                        </div>
+                      
+                    </li>
+
+                    <li class="list__item list__item--click">
+                        <div class="list__button list__button--click">
+                            <img src="telefono.svg" class="list_img">
+                            <a href="#" class="nav__link">Contacto</a>
+            
+                        </div>
+                    </li>
+
+                                     
+                    <li class="list__item">
+                        <div class="list__button">
+                            <img src="state.svg" class="list_img">
+                            <a href="#" class="nav__link">Ver Mas</a>
+                        </div>
+                      
+                    </li>
+
+                    <li class="list__item list__item--click">
+                        <div class="list__button list__button--click">
+                            <img src="bell.svg" class="list_img">
+                            <a href="#" class="nav__link">Notificaciones</a>
+                            <img src="flecha.svg" alt="" class="list__arrow">
+                        </div>
+                    </li>
+
+                    <li>
+                        <ul class="list__show">
+                            <li class="list__inside">
+                                <a href="#" class="nav__link--inside"> 
+                                 
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+
+                    <li class="list__item list__item--click">
+                        <div class="list__button list__button--click">
+                            <img src="12.svg" class="list_img">
+                            <a href="#" class="nav__link">Formulario</a>
+                            <img src="flecha.svg" alt="" class="list__arrow">
+                        </div>
+
+                        <ul class="list__show">
+                            <li class="list__inside">
+                                <a href="#" class="nav__link--inside"> 
+                                  <form action="" method="post" id="form">
+                                       
+                                        <div class="grupo">
+
+                                      
+                                        <input type="text" name="name" placeholder="Ej. Luis" required=""> 
+                                        
+                                        </div>
+
+                                        <div>
+                                           
+                                            <input type="text" name="Apellido" placeholder="Ej. Lopez" required="">
+                                        </div>
+                                       
+                                        <div class="grupo">
+                                            
+                                            <input type="email" name="Correo" placeholder="Ej. luislopez11@gmail.com" required="">
+                                           
+                                       </div>
+
+                                       <div class="grupo">
+                                        <input type="password" name="" id="password">
+                                     
+                                        </div>
+
+                                        <button type="submit">Agregar</button>
+                                        <p class="warnings" id="warnings"></p>
+
+                                  </form>
+
+                 
+
+
+                </ul>
+              </nav>  
+              <label for="btn-menu">✖️</label>
+            </div>
+    </div>    
+
+    <script src="script.js"></script>
+
+    <script>
+
+
+        
+        var text;
+            window.onload = function(){
+          window.datos =[];
+        }
+
+        function agregarElemento(){
+         let dato = document.getElementById('texto');
+
+        datos.push(dato);
+        }
+
+        function mostrarArreglo(){
+            let resultado = document.getElementById('resultado');
+            resultado.innerHTML = '';
+
+            for (const dato of datos) {
+                let datoParrafo = document.createElement('p');
+                datoParrafo.innerText = dato;
+
+                resultado.appendChild(datoParrafo);
+            }
+        }
+
+
+    </script>
+</body>
+</html>

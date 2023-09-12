@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair&family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Playfair', serif;;
+}
+body{
+     
+}
+.menu{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    float: right;
+    
+}
+
+.menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color:black;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+
+.logo{
+    text-align: center;
+    top: 35px;
+    color:crimson;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+    font-family: 'Tilt Prism', cursive;
+    cursor: pointer;
+}
+
+.banner{
+    position: relative;
+     display: inline-block;
+     text-align: center;
+}
+.dec{
+    position: absolute;
+    text-align: center;
+    color: #f3e8e8;
+    font-size: medium;
+    text-shadow:  0.1em 0.1em 0.05em #0a0909;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+.morocco{
+    position: absolute;
+    text-align: center;
+    color: #f3e8e8;
+    font-size: medium;
+    text-shadow:  0.1em 0.1em 0.05em #0a0909;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+img.scaled {
+    width: 50%;
+    display: inline-block;
+    left: 50%;
+  }

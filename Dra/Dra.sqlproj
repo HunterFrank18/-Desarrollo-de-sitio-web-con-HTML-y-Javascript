@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="0.1.10-preview" />
+  <PropertyGroup>
+    <Name>Dra</Name>
+    <ProjectGuid>{EC1ED8D5-58C9-40E3-8AF2-AF11887BFE2A}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+  </PropertyGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="Un">
+      <Value>$(SqlCmdVar__1)</Value>
+      <DefaultValue>int</DefaultValue>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
+  </Target>
+</Project>

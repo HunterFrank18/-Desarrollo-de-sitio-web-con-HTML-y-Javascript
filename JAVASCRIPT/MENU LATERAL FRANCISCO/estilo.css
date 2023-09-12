@@ -6,7 +6,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 body{
-    background: url(86dadcab5e76a9be876f895efd7872b1.jpg);
+    background: url(HD-wallpaper-volcano.jpg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
@@ -116,4 +116,74 @@ body{
     color: #fff;
     cursor: pointer;
     font-size: 18px;
+}
+
+
+
+.nav1{
+    width: 300px;
+}
+.nav__link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+ 
+
+}
+
+.nav__link--inside{
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.nav__link--inside:hover{
+    background: #f6f8fa;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+.list__arrow{
+    margin-left: auto;
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list__show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid white;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+form{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.arrow .list__arrow{
+    margin-left: auto;
+    transition: transform .3s;
+
 }
